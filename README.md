@@ -1,5 +1,7 @@
 # ST7528
 
+*Forked from https://github.com/LonelyWolf/stm32/tree/master/ST7528*
+
 Library for graphical LCD based on **ST7528** controller (16 grayscale levels).
 
 Contains functions for display initialization and configuration.
