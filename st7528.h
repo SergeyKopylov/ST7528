@@ -10,7 +10,7 @@
 // ST7528 display connection:
 //   PB8 --> CS
 //   PB9 --> RST
-//   PC0 --> RS/A0
+//   PB7 --> RS/A0
 //   PA5 --> SCK
 //   PA7 --> MOSI
 
@@ -23,9 +23,9 @@
 // GPIO peripherals
 #define ST7528_GPIO_PERIPH   (RCC_AHBENR_GPIOBEN | RCC_AHBENR_GPIOCEN)
 
-// ST7528 A0 (Data/Command select) pin (PC0)
-#define ST7528_A0_PORT       GPIOC
-#define ST7528_A0_PIN        GPIO_Pin_0
+// ST7528 A0 (Data/Command select) pin (PB7)
+#define ST7528_A0_PORT       GPIOB
+#define ST7528_A0_PIN        GPIO_Pin_7
 #define ST7528_A0_L()        GPIO_PIN_RESET(ST7528_A0_PORT,ST7528_A0_PIN)
 #define ST7528_A0_H()        GPIO_PIN_SET(ST7528_A0_PORT,ST7528_A0_PIN)
 

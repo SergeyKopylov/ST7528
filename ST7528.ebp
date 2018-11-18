@@ -84,13 +84,52 @@
 			<Add option="-eb_start_files" />
 			<Add option="-eb_lib=n" />
 		</Linker>
+		<Unit filename="boot\startup_stm32l151xd.S">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="boot\stm32l151xd.h" />
+		<Unit filename="boot\stm32l1xx.h" />
+		<Unit filename="boot\system_stm32l1xx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="boot\system_stm32l1xx.h" />
+		<Unit filename="cmsis\cmsis_gcc.h" />
 		<Unit filename="cmsis\core_cm3.h" />
 		<Unit filename="cmsis\core_cmFunc.h" />
 		<Unit filename="cmsis\core_cmInstr.h" />
 		<Unit filename="inc\stm32f10x.h" />
 		<Unit filename="inc\stm32f10x_conf.h" />
 		<Unit filename="inc\system_stm32f10x.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.h" />
+		<Unit filename="periph\delay.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="periph\delay.h" />
+		<Unit filename="periph\gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="periph\gpio.h" />
+		<Unit filename="periph\power.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="periph\power.h" />
+		<Unit filename="periph\rcc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="periph\rcc.h" />
+		<Unit filename="periph\spi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="periph\spi.h" />
 		<Unit filename="readme.txt" />
+		<Unit filename="resources\bitmaps.h" />
+		<Unit filename="resources\digits5x9.h" />
+		<Unit filename="resources\digits8x16.h" />
+		<Unit filename="resources\font5x7.h" />
+		<Unit filename="resources\font7x10.h" />
 		<Unit filename="SPL\inc\misc.h" />
 		<Unit filename="SPL\inc\stm32f10x_adc.h" />
 		<Unit filename="SPL\inc\stm32f10x_bkp.h" />
@@ -183,15 +222,16 @@
 		<Unit filename="SPL\src\stm32f10x_wwdg.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="src\main.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="src\startup_stm32f10x_md.S">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src\system_stm32f10x.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="st7528.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="st7528.h" />
 		<Unit filename="stm32f103c8_flash.ld" />
 		<Unit filename="stm32f103c8_sram.ld" />
 		<Extensions>

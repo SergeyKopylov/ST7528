@@ -102,6 +102,7 @@ void RCC_RTCCLK_cfg(uint32_t source) {
 //         If SYSCLK source is PLL, function returns values based on the HSE_VALUE
 //           or HSI_VALUE multiplied/divided by the PLL factors.
 // note: For compatibility with some SPL functions
+/*
 void RCC_GetClocksFreq(RCC_ClocksTypeDef* RCC_Clocks) {
 	uint32_t reg;
 	uint32_t divider;
@@ -146,3 +147,4 @@ void RCC_GetClocksFreq(RCC_ClocksTypeDef* RCC_Clocks) {
 	divider = APBAHBPrescTable[(reg & RCC_CFGR_PPRE2) >> 11];
 	RCC_Clocks->PCLK2_Frequency = RCC_Clocks->HCLK_Frequency   >> divider;
 }
+*/
